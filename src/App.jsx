@@ -6,12 +6,14 @@ import {
   projects,
   skills,
   education,
+  gallery,
 } from './data'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
 import SectionHeader from './components/SectionHeader'
 import ExperienceCard from './components/ExperienceCard'
 import ProjectCard from './components/ProjectCard'
+import GalleryCard from './components/GalleryCard'
 import SkillGroup from './components/SkillGroup'
 import EducationCard from './components/EducationCard'
 import Contact from './components/Contact'
@@ -33,6 +35,7 @@ function App() {
   const navLinks = [
     { label: 'Work', href: '#experience' },
     { label: 'Projects', href: '#projects' },
+    { label: 'Gallery', href: '#gallery' },
     { label: 'Skills', href: '#skills' },
     { label: 'Education', href: '#education' },
     { label: 'Contact', href: '#contact' },
@@ -95,6 +98,19 @@ function App() {
             <div className="projects-grid">
               {filteredProjects.map((project) => (
                 <ProjectCard key={project.title} {...project} />
+              ))}
+            </div>
+          </section>
+
+          <section id="gallery" className="section">
+            <SectionHeader
+              eyebrow="Gallery"
+              title="Events and conferences"
+              subtitle="Moments from recent talks, workshops, and community gatherings."
+            />
+            <div className="gallery-grid">
+              {gallery.map((item) => (
+                <GalleryCard key={item.title} {...item} />
               ))}
             </div>
           </section>

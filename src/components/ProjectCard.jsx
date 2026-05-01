@@ -21,9 +21,11 @@ const ProjectCard = ({ title, description, tags, image, demoLink, repoLink }) =>
         <a href={demoLink} target="_blank" rel="noreferrer">
           View demo
         </a>
-        <a href={repoLink} target="_blank" rel="noreferrer">
-          Repository
-        </a>
+        {repoLink ? (
+          <a href={repoLink} target="_blank" rel="noreferrer">
+            Repository
+          </a>
+        ) : null}
       </div>
     </Card>
   )

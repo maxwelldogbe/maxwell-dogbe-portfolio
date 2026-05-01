@@ -1,7 +1,13 @@
 import heroImage from './assets/hero.png'
-import projectOne from './assets/project-1.svg'
-import projectTwo from './assets/project-2.svg'
+import projectOne from './assets/catalorga.png'
+import projectTwo from './assets/brainartzgh.png'
 import projectThree from './assets/project-3.svg'
+import galleryOne from './assets/image1.jpg'
+import galleryTwo from './assets/image2.jpg'
+import galleryThree from './assets/image3.jpg'
+import galleryFour from './assets/image4.jpg'
+import galleryFive from './assets/image5.jpg'
+import gallerySix from './assets/image6.jpg'
 
 export const personalInfo = {
   name: 'Maxwell Dogbe',
@@ -72,7 +78,7 @@ export const projects = [
     tags: ['Branding', 'Market Place', 'Seamless payments'],
     category: 'Full Stack',
     image: projectTwo,
-    demoLink: 'https://example.com',
+    demoLink: 'https://catalorga.com/',
     // repoLink: 'https://github.com',
   },
 //   {
@@ -129,5 +135,44 @@ export const education = [
     program: 'General Science',
     duration: '2019 - 2022',
     details: 'Focused on physics, chemistry and further mathematics',
+  },
+]
+
+export const gallery = [
+  {
+    title: 'ICP Hands-on Workshop',
+    description: 'Panel sessions on product strategy and emerging Web3 harnessing.',
+    meta: 'Meetup · 2025',
+    image: galleryOne,
+  },
+  {
+    title: 'PyHo Conference',
+    description: 'Group picture with collegues (on the right) and organisers for the conference(on my left) held in Ho, Ghana.',
+    meta: 'COnference · 2025',
+    image: galleryTwo,
+  },
+  {
+    title: 'Team Session at ICP meetup',
+    description: 'Me explaining to my teammates on what smart contracts are how to write a smart contract',
+    meta: 'Meetup · 2025',
+    image: galleryThree,
+  },
+  {
+    title: 'Python Meetup',
+    description: 'Listening to presentation on how to build a chatbot using tensorflow and python.',
+    meta: 'Meetup · 2024',
+    image: galleryFour,
+  },
+  {
+    title: 'PyHo Conference',
+    description: 'Hands-on labs covering deployment, CI/CD, and observability.',
+    meta: 'Conference · 2025',
+    image: galleryFive,
+  },
+  {
+    title: 'PyHo Conference',
+    description: 'Group photo to climax the PyHo COnference 2025.',
+    meta: 'Conference · 2025',
+    image: gallerySix,
   },
 ]

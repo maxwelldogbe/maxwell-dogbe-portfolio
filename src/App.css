@@ -408,6 +408,45 @@
   color: var(--color-tertiary);
 }
 
+.gallery-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gallery-card {
+  display: grid;
+  gap: var(--space-md);
+  min-width: 0;
+}
+
+.gallery-image {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--color-secondary);
+}
+
+.gallery-image img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.gallery-body p {
+  margin: 0 0 var(--space-sm);
+  color: var(--color-secondary);
+}
+
+.gallery-meta {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
 .skills-grid {
   display: grid;
   gap: var(--space-lg);
@@ -488,7 +527,8 @@
   }
 
   .projects-grid,
-  .skills-grid {
+  .skills-grid,
+  .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -551,7 +591,8 @@
   }
 
   .projects-grid,
-  .skills-grid {
+  .skills-grid,
+  .gallery-grid {
     grid-template-columns: 1fr;
   }
 
