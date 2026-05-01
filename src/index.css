@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #a8b0bc;
+  --color-tertiary: #1c69d4;
+  --color-neutral: #000000;
+  --color-surface: #141619;
+  --color-on-primary: #000000;
+
+  --radius-sm: 0px;
+  --radius-md: 2px;
+  --radius-lg: 4px;
+
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--color-primary);
+  background: var(--color-neutral);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-neutral);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
