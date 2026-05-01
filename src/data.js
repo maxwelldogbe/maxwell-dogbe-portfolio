@@ -13,9 +13,9 @@ export const personalInfo = {
   email: 'dogbemaxwelldziedzorm@gmail.com',
   heroImage,
   socialLinks: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com' },
-    { label: 'Behance', href: 'https://www.behance.net' },
-    { label: 'GitHub', href: 'https://github.com' },
+    { label: 'LinkedIn', href: 'https://wwhttp://www.linkedin.com/in/maxwell-dogbe-80864b249w.linkedin.com' },
+    // { label: 'Behance', href: 'https://www.behance.net' },
+    { label: 'GitHub', href: 'https://github.com/maxwelldogbe' },
     { label: 'WhatsApp', href: 'https://wa.me/233201114026' },
   ],
   callNumber: '+233535859825',
@@ -73,7 +73,7 @@ export const projects = [
     category: 'Full Stack',
     image: projectTwo,
     demoLink: 'https://example.com',
-    repoLink: 'https://github.com',
+    // repoLink: 'https://github.com',
   },
 //   {
 //     title: 'Pulse Campaign Sprint',
