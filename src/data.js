@@ -13,7 +13,7 @@ export const personalInfo = {
   email: 'dogbemaxwelldziedzorm@gmail.com',
   heroImage,
   socialLinks: [
-    { label: 'LinkedIn', href: 'https://wwhttp://www.linkedin.com/in/maxwell-dogbe-80864b249w.linkedin.com' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/maxwell-dogbe-80864b249' },
     // { label: 'Behance', href: 'https://www.behance.net' },
     { label: 'GitHub', href: 'https://github.com/maxwelldogbe' },
     { label: 'WhatsApp', href: 'https://wa.me/233201114026' },
